@@ -43,6 +43,7 @@ public class NeuralNet {
 	/**
 	 * Trains the neural network for the specified amount of epochs.
 	 * @param inputs All of the training data. Each row corresponds to one training sample.
+	 * @param labels Labels for the training data.
 	 * @param n Number of training epochs.
 	 */
 	public void epochs( FloatMatrix inputs, byte[] labels, int n ) {
@@ -67,6 +68,7 @@ public class NeuralNet {
 	/**
 	 * Trains the neural network with the specified amount of inputs.
 	 * @param inputs Some of the training data.
+	 * @param labels Labels for the training data.
 	 */
 	private void batch( FloatMatrix inputs, byte[] labels ) {
 

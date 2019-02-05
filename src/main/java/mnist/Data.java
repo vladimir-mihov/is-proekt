@@ -21,8 +21,6 @@ public class Data {
 	private static final int pixels = 784;
 
 	public Data() throws IOException {
-		Test test = new Test();
-		test.print();
 		mnistTrainData = new FloatMatrix(numTrainImages,pixels);
 		mnistTrainLabels = new byte[numTrainImages];
 

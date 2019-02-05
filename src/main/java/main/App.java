@@ -25,9 +25,6 @@ public class App {
 	};
 
 	public static void main( String[] args ) throws IOException {
-		String x = "hahaha";
-		for( char i : x ) {
-			System.out.println(i);
-		}
+
 	}
 }
